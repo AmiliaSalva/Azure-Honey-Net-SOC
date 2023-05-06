@@ -1,15 +1,42 @@
-# Building a SOC + Honeynet in Azure (Live Traffic)
+# Azure Honeynet Project: Simulating Real-World Cyber Attacks
 ![Cloud Honeynet / SOC](https://i.imgur.com/4qcVKgw.png)
 
 ## Introduction
 
-In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
+ I am thrilled to present my latest project, which focuses on building a honeynet in Azure to simulate real-world cyber attacks. 
+This project showcases my skills in Azure security, incident response, and environment hardening
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
+## Objective
+The primary goal of this project was to deploy intentionally vulnerable virtual machines within the Azure infrastructure to attract and study cyber attacks. This allowed me to analyze attackers' tactics and techniques, while also demonstrating my ability to respond effectively and remediate identified issues.
+
+## Technologies, Regulations, and Azure Components Employed:
+
+- Azure Virtual Network (VNet)
+- Azure Network Security Group (NSG)
+- Virtual Machines (2x Windows, 1x Linux)
+- Log Analytics Workspace with Kusto Query Language (KQL) Queries
+- Azure Key Vault for Secure Secrets Management
+- Azure Storage Account for Data Storage
+- Microsoft Sentinel for Security Information and Event Management (SIEM)
+- Microsoft Defender for Cloud to Protect Cloud Resources
+- Windows Remote Desktop for Remote Access
+- Command Line Interface (CLI) for System Management
+- PowerShell for Automation and Configuration Management
+- NIST SP 800-53 Revision 4 for Security Controls
+- NIST SP 800-61 Revision 2 for Incident Handling Guidance
+
+## Methodology
+
+- <b>*Creating the honeynet*</b>: I began by deploying multiple vulnerable virtual machines in Azure, simulating an insecure environment.
+
+- <b>*Monitoring and analysis*</b>: Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.
+
+- <b>*Security metrics measurement*</b>: I observed the environment for 24 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures.
+
+- <b>*Incident response and remediation*</b>: After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations.
+
+- <b>*Post-remediation analysis*</b>: I re-observed the environment for another 24 hours to measure security metrics again, comparing the results with the initial baseline.
+
 
 ## Architecture Before Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
