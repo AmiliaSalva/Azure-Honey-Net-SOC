@@ -38,8 +38,8 @@ The primary goal of this project was to deploy intentionally vulnerable virtual 
 - <b>*Post-remediation analysis*</b>: I re-observed the environment for another 24 hours to measure security metrics again, comparing the results with the initial baseline.
 
 
-## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+## Architecture Prior to Implementing Hardening Measures and Security Controls
+![Architecture Diagram](img]https://i.imgur.com/y48PiBY.png)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
