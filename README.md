@@ -39,7 +39,7 @@ The primary goal of this project was to deploy intentionally vulnerable virtual 
 
 
 ## Architecture Prior to Implementing Hardening Measures and Security Controls
-![Architecture Diagram](img]https://i.imgur.com/y48PiBY.png)
+![Architecture Diagram](https://i.imgur.com/y48PiBY.png)
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
