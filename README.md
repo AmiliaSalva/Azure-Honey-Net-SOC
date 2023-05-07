@@ -59,6 +59,8 @@ By comparing the security metrics before and after implementing these hardening 
 
 ## Attack Maps Before Hardening / Security Controls
 
+ <br />
+ <br />
  
 - <b>This attack map demonstrates the consequences of leaving the Network Security Group (NSG) open, as it allowed for malicious traffic to flow unimpeded. This visualization underscores the importance of implementing proper security measures, such as restricting NSG rules, to prevent unauthorized access and minimize potential threats.</b>
 
