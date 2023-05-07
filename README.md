@@ -59,14 +59,22 @@ By comparing the security metrics before and after implementing these hardening 
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/JeElX9R.png)<br>
+ <br />
+ <br />
 ![Linux Syslog Auth Failures](https://i.imgur.com/QW8PF0o.png)<br>
+ <br />
+ <br />
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/SETmQBl.png)<br>
+ <br />
+ <br />
 
 ## Attack Maps After Hardening / Security Controls
 
 ```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
-
+ <br />
+ <br />
+ 
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
