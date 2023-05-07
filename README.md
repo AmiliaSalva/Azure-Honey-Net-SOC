@@ -58,13 +58,27 @@ For the "AFTER" stage, I implemented a series of hardening measures and security
 By comparing the security metrics before and after implementing these hardening measures and security controls, I was able to demonstrate the effectiveness of each step in improving the overall security posture of the Azure environment.
 
 ## Attack Maps Before Hardening / Security Controls
+
+ 
+- This attack map demonstrates the consequences of leaving the Network Security Group (NSG) open, as it allowed for malicious traffic to flow unimpeded. This visualization underscores the importance of implementing proper security measures, such as restricting NSG rules, to prevent unauthorized access and minimize potential threats.
+
+
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/JeElX9R.png)<br>
+
  <br />
  <br />
+ 
+ - This attack map highlights the numerous syslog authentication failures experienced by the Linux server I deployed, indicating that unauthorized access attempts were made from outisde. This serves as a reminder of the importance of securing Linux servers with strong authentication mechanisms and monitoring system logs for signs of intrusion attempts.
+ 
 ![Linux Syslog Auth Failures](https://i.imgur.com/QW8PF0o.png)<br>
+
  <br />
  <br />
+ 
+ - This attack map showcases the numerous RDP and SMB failures, illustrating the persistent attempts by potential attackers to exploit these protocols. The visualization emphasizes the need for securing remote access and file sharing services to protect against unauthorized access and potential cyber threats.
+ 
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/SETmQBl.png)<br>
+
  <br />
  <br />
 
