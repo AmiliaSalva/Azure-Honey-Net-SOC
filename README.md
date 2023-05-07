@@ -62,6 +62,11 @@ By comparing the security metrics before and after implementing these hardening 
 ![Linux Syslog Auth Failures](https://i.imgur.com/QW8PF0o.png)<br>
 ![Windows RDP/SMB Auth Failures](https://i.imgur.com/SETmQBl.png)<br>
 
+## Attack Maps After Hardening / Security Controls
+
+```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+
+
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
@@ -76,9 +81,7 @@ Stop Time 2023-05-03 17:02:00 PM
 | SecurityIncident (Sentinel Incidents)        | 343
 | NSG Inbound Malicious Flows Allowed | 969
 
-## Attack Maps Before Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
 
 ## Metrics After Hardening / Security Controls
 
