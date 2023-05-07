@@ -71,11 +71,11 @@ Stop Time 2023-03-16 17:04:29
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent (Windows VM)            | 21182
+| Syslog (Linux VM)                   | 4877
+| SecurityAlert (Microsoft Defender for Cloud            | 0
+| SecurityIncident (Sentinel Incidents)        | 343
+| NSG Inbound Malicious Flows Allowed | 969
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -87,13 +87,14 @@ The following table shows the metrics we measured in our environment for another
 Start Time 2023-03-18 15:37
 Stop Time	2023-03-19 15:37
 
+
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
+| SecurityEvent (Windows VM)            | 783
+| Syslog (Linux VM)                   | 23
+| SecurityAlert (Microsoft Defender for Cloud            | 0
+| SecurityIncident (Sentinel Incidents)        | 0
+| NSG Inbound Malicious Flows Allowed | 0
 
 ## Conclusion
 
