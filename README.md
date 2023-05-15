@@ -27,7 +27,7 @@ The main objective of this project was to [set up virtual machines that were int
 
 ## Methodology
 
-- <b>*Creating the honeynet*</b>: I began by deploying multiple vulnerable virtual machines in Azure, simulating an insecure environment.
+- <b>*Creating the honeynet*</b>: I began by [deploying multiple vulnerable virtual machines](https://github.com/AmiliaSalva/Azure-VM-Prep/blob/main/README.md) in Azure, simulating an insecure environment.
 
 - <b>*Monitoring and analysis*</b>: Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.
 
