@@ -92,7 +92,7 @@ enabling the creation of visualizations that effectively illustrated the cyber t
 
 ## Attack Maps After Hardening / Security Controls
 
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
+> All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.
 
  <br />
  <br />
