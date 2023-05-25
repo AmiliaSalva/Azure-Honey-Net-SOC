@@ -22,8 +22,8 @@ The main objective of this project was to [set up virtual machines that were int
 - Windows Remote Desktop for Remote Access
 - Command Line Interface (CLI) for System Management
 - PowerShell for Automation and Configuration Management
-- NIST SP 800-53 Revision 4 for Security Controls
-- NIST SP 800-61 Revision 2 for Incident Handling Guidance
+- [NIST SP 800-53 Revision 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) for Security Controls
+- [NIST SP 800-61 Revision 2](https://www.nist.gov/privacy-framework/nist-sp-800-61) for Incident Handling Guidance
 
 ## Methodology
 
